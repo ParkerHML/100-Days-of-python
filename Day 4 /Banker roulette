@@ -1,0 +1,5 @@
+names = names_string.split(", ")
+import random 
+
+bill = random.choice(names)
+print(f"{bill} is going to buy the meal today!")
